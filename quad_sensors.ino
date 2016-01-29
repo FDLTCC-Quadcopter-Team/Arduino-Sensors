@@ -107,7 +107,7 @@ void setup()
   initCompass();
   delay(20);
   Serial.begin(9600);  // start serial for output
-  Serial.println("Acc X,Acc Y,Acc Z,Gyro X,Gyro Y,Gyro Z,Compass X,Compass Y,Compass Z,Lidar,Temperature,Time")
+  Serial.println("Acc X,Acc Y,Acc Z,Gyro X,Gyro Y,Gyro Z,Compass X,Compass Y,Compass Z,Lidar,Temperature,Time");
 }
 
 void loop()
